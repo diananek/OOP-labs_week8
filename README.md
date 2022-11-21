@@ -1,14 +1,13 @@
-# JFreeChart JAR build 
+# Tests for 5 laboratory 
 
 
-#### Maven
-Run this command to build jar: 
+#### Run this command to build jar and run tests: 
 
 ```
-mvn clean compile assembly:single
+mvn clean package
 ```
 
-Run this to run jar:
+#### Run this to run jar:
 __Windows__
 ```
 java -jar target/lab7-1.0-SNAPSHOT-jar-with-dependencies.jar
@@ -16,21 +15,4 @@ java -jar target/lab7-1.0-SNAPSHOT-jar-with-dependencies.jar
 __Linux__
 ```
 java -jar ./target/lab7-1.0-SNAPSHOT-jar-with-dependencies.jar
-```
-
-#### Gradle
-Run this command to build jar: 
-
-```
-.\gradlew clean build
-```
-
-Run this to run jar:
-__Windows__
-```
-java -jar build/libs/example-1.0-SNAPSHOT.jar
-```
-__Linux__
-```
-java -jar ./build/libs/example-1.0-SNAPSHOT.jar
 ```
