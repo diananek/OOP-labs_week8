@@ -10,7 +10,7 @@ import org.lab8.entity.WaterVolume;
 public class App {
     public static void main(String[] args) {
         try (Scanner numberScanner = new Scanner(System.in)) {
-            System.out.print("Выберите программу (1, 2, 3): ");
+            System.out.print("Выберите программу (1 - PermutateArray, 2 - SharesProfit, 3 - WaterVolume): ");
             int option = numberScanner.nextInt();
             if (option == 1) {
                 PermutateArray.main(args);
